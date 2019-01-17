@@ -1,0 +1,802 @@
+{
+  "settings": {
+    "currentPage": "index.html",
+    "name": "NOR PEPT",
+    "theme": {
+      "name": "mobirise3",
+      "title": "Mobirise 3",
+      "styling": {
+        "primaryColor": "#2e2e2e",
+        "secondaryColor": "#bfcecb",
+        "successColor": "#90a878",
+        "infoColor": "#7e9b9f",
+        "warningColor": "#f3c649",
+        "dangerColor": "#f28281",
+        "titleFont": "Roboto Condensed",
+        "subtitleFont": "Roboto Condensed",
+        "textFont": "Roboto Condensed",
+        "isRoundedButtons": false,
+        "isAnimatedOnScroll": false,
+        "isScrollToTopButton": false,
+        "isRtl": false
+      },
+      "additionalSetColors": [
+        "#8c8c8c",
+        "#2e2e2e"
+      ]
+    },
+    "versionFirst": "3.12.1",
+    "uniqCompNum": 75,
+    "versionPublish": "4.8.10",
+    "favicon": "@PROJECT_PATH@/assets/images/norpept-logo-1.png",
+    "noImageResize": "true",
+    "path": "@PROJECT_PATH@",
+    "screenshot": "screenshot.png",
+    "siteFonts": []
+  },
+  "pages": {
+    "publication.html": {
+      "settings": {
+        "title": "NOR PEPT publications",
+        "meta_descr": "NOR PEPT publications",
+        "order": 2
+      },
+      "components": [
+        {
+          "_name": "footer1",
+          "_anchor": "footer1-15",
+          "_params": {
+            "paddingTop": "1",
+            "paddingBottom": "1",
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#2e2e2e",
+            "overlay": true,
+            "overlayColor": "#444444",
+            "overlayOpacity": 0.8
+          },
+          "text": "© 2018 NOR PEPT"
+        },
+        {
+          "_inherit": "menu",
+          "_tags": [
+            "Theme"
+          ],
+          "_styles": {
+            ".hide-buttons .nav-btn": {
+              "display": "none !important"
+            },
+            ".navbar-caption": {
+              "color": "#ffffff",
+              "font-family": "'Lato', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Lato:400,300,700"
+            },
+            ".navbar-toggler": {
+              "color": "#ffffff"
+            },
+            ".close-icon::before, .close-icon::after": {
+              "background-color": "#ffffff"
+            },
+            ".link, .dropdown-item": {
+              "color": "#ffffff"
+            },
+            ".link": {
+              "font-size": "0.75rem"
+            },
+            ".dropdown-item, .nav-dropdown-sm .link": {
+              "font-size": "0.812rem"
+            },
+            ".link:hover, .dropdown-item:hover, .link:focus, .dropdown-item:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-menu": {
+              "background": "#141414"
+            },
+            ".nav-dropdown-sm .link:focus, .nav-dropdown-sm .link:hover, .nav-dropdown-sm .dropdown-item:focus, .nav-dropdown-sm .dropdown-item:hover": {
+              "background": "#262626!important"
+            },
+            ".navbar, .nav-dropdown-sm, .nav-dropdown-sm .link[aria-expanded=\"true\"], .nav-dropdown-sm .dropdown-menu": {
+              "background": "#2e2e2e"
+            },
+            ".bg-color.transparent .link": {
+              "color": "#ffffff",
+              "transition": "none"
+            },
+            ".bg-color.transparent.opened .link": {
+              "transition": "color .2s ease-in-out"
+            },
+            ".bg-color.transparent.opened .link:hover, .bg-color.transparent.opened .link:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-item[aria-expanded=\"true\"]": {
+              "color": "#2e2e2e!important"
+            }
+          },
+          "_name": "ext.menu",
+          "_anchor": "ext_menu-16",
+          "_params": {
+            "logo": false,
+            "showBrand": true,
+            "hideButtons": false,
+            "sticky": true,
+            "collapsed": true,
+            "transparent": false,
+            "bgColor": "#2e2e2e",
+            "fontSize": 0.75,
+            "fontName": {},
+            "fontColor": "#ffffff",
+            "fontHoverColor": "@primaryColor"
+          },
+          "logo": {
+            "image": {
+              "active": true,
+              "src": "@THEME_PATH@/components/_images/logo.png",
+              "height": 128,
+              "alt": "Mobirise",
+              "link": "https://mobirise.com"
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-menu",
+              "link": "https://mobirise.com",
+              "size": 0
+            }
+          },
+          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"http://pept.co.nf/\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">NOR PEPT</a>",
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#content1-x\">Abut Us</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#content1-12\">Research Themes</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#contacts2-22\">Contact Us</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#content1-v\">Join Us</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white-outline btn-white\" href=\"publication.html\">Publications</a></li>"
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "content1",
+          "_styles": {
+            "P": {
+              "color": "#2969b0"
+            }
+          },
+          "_anchor": "content1-17",
+          "_params": {
+            "paddingTop": "5",
+            "paddingBottom": 1,
+            "bgColor": "#fff"
+          },
+          "text": "<p><b>Publications</b></p>"
+        },
+        {
+          "_params": {
+            "paddingTop": "0",
+            "paddingBottom": 1,
+            "bgColor": "#fff"
+          },
+          "text": "<p><a href=\"http://iopscience.iop.org/1742-6596/781/1/012039\" target=\"_blank\">Non-invasive studies of multiphase flow in process equipment. Positron emission particle tracking technique.</a></p><p>B. V. Balakin, T. C. H. Adamsen, Y.-F. Chang, P. Kosinski, and A. C. Hoffmann.  Journal of Physics: Conference Series 781(1): 012039, 2017.&nbsp;</p><p><br></p><p><a href=\"http://hdl.handle.net/1956/12687\" target=\"_blank\">Study of the flow in a hydrocyclone using positron emission particle tracking and computational fluid dynamics simulation</a>.</p><p>Y.-F. Chang. PhD Thesis, University of Bergen (2016). ISBN: 978-82-308-3278-3 &nbsp;</p><p><br></p><p><a href=\"http://dx.doi.org/10.1007/s00348-014-1875-5\" target=\"_blank\">A Lagrangian study of liquid flow in a reverse- flow hydrocyclone using positron emission particle tracking.</a> </p><p>Y.-F. Chang and A. C. Hoffmann. Experiments in Fluids, 56(1):1–14, 2015.</p><p><br></p><p><a href=\"http://dx.doi.org/10.1051/epjconf/20135005001\" target=\"_blank\">PEPT: An invaluable tool for 3-D particle tracking and CFD simulation verification in hydrocyclone studies.&nbsp;</a></p><p>Y.-F. Chang, T. C. H. Adamsen, G. I. Pisarev, and A. C. Hoffmann. European Physical Journal Web of Conferences, 50:05001p.1–p.8, 2013.</p><p><br></p><p><a href=\"https://doi.org/10.1016/j.powtec.2013.01.024\" target=\"_blank\">PEPT - A novel tool for investigation of pneumatic conveying.</a>&nbsp;</p><p>P. Middha, B. V. Balakin, L. K. Leirvåg, A. C. Hoffmann, and P. Kosinski. Powder Technology, 237: 87-96, 2013.</p><p><br></p><p><a href=\"http://dx.doi.org/10.1109/I2MTC.2012.6229306\" target=\"_blank\">Using a PET camera to track individual phases in process equipment with high temporal and spatial resolutions: Algorithm development.</a> </p><p>Y.-F. Chang, T. C. H. Adamsen, and A. C. Hoffmann. In Proceedings of 2012 IEEE International Instrumentation and Measurement Technology Conference (I2MTC), pages 2326– 2330, 2012.</p><p><br></p><p><a href=\"http://hdl.handle.net/1956/6549\" target=\"_blank\">Investigation of particle trajectories and flow patterns in a hydrocyclone by positron emission particle tracking (PEPT).&nbsp;</a></p><p>Å. Skorpen, Master Thesis, University of Bergen (2012).</p><p><br></p><p><a href=\"http://dx.doi.org/10.1063/1.4756095\" target=\"_blank\">CFD modeling of PEPT results of particle motion trajectories in a pipe over an obstacle.&nbsp;</a></p><p>M. Ghaffari, Y.-F. Chang, A. C. Hoffmann, and B. V. Balakin. AIP Conference Proceedings 1479: 193–196, 2012.</p><p><br></p><p><a href=\"http://dx.doi.org/10.1016/j.ces.2011.06.001\" target=\"_blank\">Particle flow in a hydrocyclone investigated by positron emission particle tracking.&nbsp;</a></p><p>Y.-F. Chang, C. G. Ilea, Ø. L. Aasen, and A. C. Hoffmann. Chemical Engineering Science, 66(18):4203–4211, 2011.</p><p><br></p><p><a href=\"http://dx.doi.org/10.1063/1.3636698\" target=\"_blank\">Numerical study of the “end of the vortex” phenomenon in a hydrocyclone separator.&nbsp;</a></p><p>Y.-F. Chang, G. I. Pisarev, and A. C. Hoffmann. AIP Conference Proceedings, 1389(1):183–186, 2011.</p><p><br></p><p><a href=\"http://inpact.inp-toulouse.fr/FPS2010/RESUMES/abstract97.pdf\" target=\"_blank\">Particle flow in a hydrocyclone investigated by radioactive particle tracking.&nbsp;</a></p><p>Y.-F. Chang, , C. G. Ilea, Ø. L. Aasen, and A. C. Hoffmann. Presented in European Conference on Fluid-Particle Separation (ECFPS) 2010.</p>",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "content1",
+          "_anchor": "content1-1p"
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "content1",
+          "_styles": {
+            "P": {
+              "color": "#2969b0"
+            }
+          },
+          "_anchor": "content1-19",
+          "_params": {
+            "paddingTop": 1,
+            "paddingBottom": 1,
+            "bgColor": "#fff"
+          },
+          "text": "<p><b>Presentations</b></p>"
+        },
+        {
+          "_params": {
+            "paddingTop": "0",
+            "paddingBottom": 1,
+            "bgColor": "#fff"
+          },
+          "text": "<p><b>Visualising multiphase flow in process equipment and biological structure using PEPT. </b></p><p> Y.-F. Chang. Greater Stavanger Impact Week 2017.</p><p><br></p><p><b>Non-invasive studies of multiphase flow in process equipment. Positron emission particle tracking technique.&nbsp;</b></p><p>B. V. Balakin, T. C. H. Adamsen, Y.-F. Chang, P. Kosinski, and A. C. Hoffmann. International Conference on Nuclear Reactor Physics 2016</p><p><br></p><p><b>PEPT and CFD investigation of lean-phase pneumatic conveying through a bend.&nbsp;</b></p><p>P. Middha, B. V. Balakin, A. C. Hoffmann, and P. Kosinski. International Conference on Multiphase Flow (ICMF) 2013.</p><p><br></p><p><b>PEPT investigation of pneumatic conveying through a bend.&nbsp;</b></p><p>P. Middha, B. V. Balakin, A. C. Hoffmann, and P. Kosinski. PARTEC2013.</p><p><br></p><p><b>Detecting anomalies in the separation process in a hydrocyclone using a medical PET scanner.&nbsp;</b></p><p>Y.-F. Chang, Å. Skorpen, D. Fonnes, and A. C. Hoffmann. 6th International Symposium on Process Tomography, 2012.&nbsp;</p><p><br></p><p><b>Particle trajectories in a hydrocyclone measured by PEPT.&nbsp;</b></p><p>Y.-F. Chang, C. G. Ilea, Ø. L. Aasen, and A. C. Hoffmann. In FILTECH 2011 Conference Proceedings, volume 1, pages 173–180, 2011.</p><p><br></p><p><b>Cleansand project.&nbsp;</b></p><p>Y.-F. Chang, TEKNA Separation Technology 2011&nbsp;</p><p><br></p><p><b>PEPT: An invaluable tool for 3-D particle tracking and CFD simulation verification in hydrocyclone studies.&nbsp;</b></p><p>Y.-F. Chang, T. C. H. Adamsen, G. I. Pisarev, and A. C. Hoffmann. Tracer 6 Conference, 2011.</p>",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "content1",
+          "_anchor": "content1-1q"
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "content1",
+          "_styles": {
+            "B": {
+              "color": "#2969b0"
+            }
+          },
+          "_anchor": "content1-1e",
+          "_params": {
+            "paddingTop": 1,
+            "paddingBottom": 1,
+            "bgColor": "#fff"
+          },
+          "text": "<b>Patents</b>"
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "content1",
+          "_anchor": "content1-1c",
+          "_params": {
+            "paddingTop": "0",
+            "paddingBottom": 1,
+            "bgColor": "#fff"
+          },
+          "text": "<ul><li>Method for tracking multiple positron-emitting particles (Australian Provisional Patent Application No. 2016901634)\n</li></ul>"
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "content1",
+          "_styles": {
+            "P": {
+              "color": "#2969b0"
+            }
+          },
+          "_anchor": "content1-1i",
+          "_params": {
+            "paddingTop": 1,
+            "paddingBottom": 1,
+            "bgColor": "#fff"
+          },
+          "text": "<p><b>Multimedia</b></p>"
+        },
+        {
+          "_inherit": "gallery1",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "gallery4",
+          "_params": {
+            "showBullets": true,
+            "fullWidth": true,
+            "spacing": "1",
+            "paddingTop": 0,
+            "paddingBottom": 0,
+            "filterBgColor": false,
+            "bgColor": "fff",
+            "showText": true,
+            "filter": false,
+            "images": [
+              {
+                "tags": "Awesome",
+                "playVideo": true,
+                "videoUrl": "https://www.youtube.com/watch?v=LYAkhg-ndHM",
+                "videoPreview": "@PROJECT_PATH@/assets/images/2017-07-23-19-44-20.jpg",
+                "thumb": "@THEME_PATH@/components/_images/gallery/bike-small.jpg",
+                "image": "@PROJECT_PATH@/assets/images/bike.jpg",
+                "caption": "Particle flow in hydrocyclone obtained using PEPT",
+                "active": true
+              }
+            ]
+          },
+          "_anchor": "gallery4-1h",
+          "articleLayout": false,
+          "allItem": "All"
+        }
+      ]
+    },
+    "index.html": {
+      "settings": {
+        "main": true,
+        "title": "NOR PEPT homepage",
+        "meta_descr": "NOR PEPT homepage",
+        "header_custom": "",
+        "footer_custom": "",
+        "html_before": ""
+      },
+      "components": [
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "content1",
+          "_styles": {
+            "DIV": {
+              "color": "#2969b0"
+            }
+          },
+          "_anchor": "content1-x",
+          "_params": {
+            "paddingTop": "5",
+            "paddingBottom": 1,
+            "bgColor": "#fff"
+          },
+          "text": "<b>About Us</b>&nbsp;"
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "content1",
+          "_anchor": "content1-10",
+          "_params": {
+            "paddingTop": "0",
+            "paddingBottom": "0",
+            "bgColor": "#ffffff"
+          },
+          "text": "<p><span style=\"font-size: 1.07rem;\">NOR PEPT is a Norway based organisation that develops the state-of-the-art Positron Emission Particle Tracking (PEPT), aiming to facilitate understanding and solutions for systems and processes involving fluid and multiphase flow. &nbsp;</span></p><p><span style=\"font-size: 1.07rem;\"> </span></p><p><span style=\"font-size: 1.07rem;\">PEPT is the only existing technique capable of unveiling the flow trajectories in opacity, e.g. in opaque equipment and opaque mixtures. The PEPT technique has been developed at the University of Bergen in collaboration with Haukeland University Hospital with the support of Research Council of Norway. Sophisticated labelling and data processing techniques have been developed and continuously refined, which facilitates following the flow with high temporal and spatial resolutions, and enables studying high speed, complex flow in multiphase systems. NOR PEPT has enabled unprecedented investigation of complex flow phenomena which were formerly unfathomable. This would further trigger improvement in theory, simulation, process &amp; product design, and lives.</span></p><p><span style=\"font-size: 1.07rem;\"> </span></p><p><span style=\"font-size: 1.07rem;\">NOR PEPT is actively working on projects covering fluid dynamics study, flow equipment and process optimisation, as well as developing instrumentation, methods, &nbsp;and algorithms for PEPT in collaboration with industrial and academic partners. If you would like to join/propose collaborative projects or have questions/comments, please&nbsp;</span><a href=\"index.html#contacts2-22\" style=\"font-size: 1.07rem; background-color: rgb(255, 255, 255);\">contact us</a><span style=\"font-size: 1.07rem;\">. &nbsp;&nbsp;</span><br></p><p><br></p>"
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "content1",
+          "_styles": {
+            "P": {
+              "color": "#2969b0"
+            },
+            "DIV": {
+              "color": "#2969b0"
+            }
+          },
+          "_anchor": "content1-12",
+          "_params": {
+            "paddingTop": "3",
+            "paddingBottom": "0",
+            "bgColor": "#fff"
+          },
+          "text": "<b>Research Themes</b>"
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "testimonials1",
+          "_styles": {
+            ".card-block P": {
+              "text-align": "center"
+            },
+            ".card-block": {
+              "font-size": "16px"
+            }
+          },
+          "testimonial": [
+            {
+              "text": "High-resolution 4-D tracking of flow",
+              "media": {
+                "image": {
+                  "src": "@THEME_PATH@/components/_images/face3.jpg",
+                  "class": "img-circle",
+                  "height": 160,
+                  "width": 160,
+                  "active": true
+                }
+              },
+              "authorName": "Read more",
+              "authorBio": "User"
+            },
+            {
+              "text": "Single and multi-particle PEPT algorithms",
+              "media": {
+                "image": {
+                  "src": "@THEME_PATH@/components/_images/face1.jpg",
+                  "class": "img-circle",
+                  "height": 160,
+                  "width": 160,
+                  "active": true
+                }
+              },
+              "authorName": "Read more",
+              "authorBio": "User"
+            },
+            {
+              "text": "PEPT and fluid dynamics simulation",
+              "media": {
+                "image": {
+                  "src": "@THEME_PATH@/components/_images/face2.jpg",
+                  "class": "img-circle",
+                  "height": 160,
+                  "width": 160,
+                  "active": true
+                }
+              },
+              "authorName": "Read more",
+              "authorBio": "User"
+            },
+            {
+              "text": "<p>PEPT instrumentation and methods</p>",
+              "media": {
+                "image": {
+                  "src": "@THEME_PATH@/components/_images/face2.jpg",
+                  "class": "img-circle",
+                  "height": 160,
+                  "width": 160,
+                  "active": true
+                }
+              },
+              "authorName": "Read more",
+              "authorBio": "Developer"
+            }
+          ],
+          "_anchor": "testimonials1-11",
+          "_params": {
+            "showTitle": false,
+            "showSubtitle": false,
+            "showImages": false,
+            "showName": false,
+            "showBio": false,
+            "count": "4",
+            "paddingTop": "0",
+            "paddingBottom": "0",
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/landscape2.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#fff",
+            "overlay": false,
+            "overlayColor": "#222",
+            "overlayOpacity": 0.5
+          },
+          "title": "WHAT OUR FANTASTIC USERS SAY",
+          "subtitle": ""
+        },
+        {
+          "_name": "footer1",
+          "_anchor": "footer1-2",
+          "_params": {
+            "paddingTop": "1",
+            "paddingBottom": "1",
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#2e2e2e",
+            "overlay": true,
+            "overlayColor": "#444444",
+            "overlayOpacity": 0.8
+          },
+          "text": "© 2018 NOR PEPT"
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "content1",
+          "_styles": {
+            "DIV": {
+              "color": "#2969b0"
+            }
+          },
+          "_anchor": "content1-v",
+          "_params": {
+            "paddingTop": "3",
+            "paddingBottom": 1,
+            "bgColor": "#fff"
+          },
+          "text": "<b>Join Us</b>"
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "content1",
+          "_anchor": "content1-u",
+          "_params": {
+            "paddingTop": "0",
+            "paddingBottom": 1,
+            "bgColor": "#fff"
+          },
+          "text": "Researchers, students, and enthusiasts are welcome to join NOR PEPT  through affiliation with the following research groups, institutes, and centres.<div>- <a href=\"https://folk.uib.no/nfyah/mps.html\" target=\"_blank\">Multiphase Systems Group, Department of Physics and Technology, University of Bergen</a></div><div>- <a href=\"https://www.hvl.no/en/about/management/faculty-of-engineering-and-science/\" target=\"_blank\">Western Norway University of Applied Sciences</a></div><div>- Center for Nuclear Medicine/PET, Haukeland University Hospital</div>",
+          "_styles": {
+            "UL": {
+              "font-family": "'Roboto Condensed', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Roboto+Condensed:400,300,700",
+              "font-size": "17px"
+            },
+            "DIV": {
+              "text-align": "left"
+            }
+          }
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "content1",
+          "_styles": {
+            "P": {
+              "color": "#2969b0"
+            }
+          },
+          "_anchor": "content1-q",
+          "_params": {
+            "paddingTop": 1,
+            "paddingBottom": "1",
+            "bgColor": "#fff"
+          },
+          "text": "<p><b>Developers &amp; Partners</b></p>"
+        },
+        {
+          "_inherit": "gallery1",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "gallery3",
+          "_params": {
+            "showBullets": true,
+            "fullWidth": true,
+            "spacing": "1",
+            "paddingTop": "0",
+            "paddingBottom": "0",
+            "filterBgColor": true,
+            "bgColor": "#ffffff",
+            "showText": false,
+            "filter": false,
+            "images": [
+              {
+                "tags": "Awesome",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/uib-logo-2000x370-800x148.png",
+                "image": "@PROJECT_PATH@/assets/images/uib-logo-2000x370.png",
+                "caption": "UiB",
+                "active": false
+              },
+              {
+                "tags": "Responsive",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/helse-bergen-logo-2000x362-800x144.png",
+                "image": "@PROJECT_PATH@/assets/images/helse-bergen-logo-2000x362.png",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Creative",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/logo-engelsk-hvl-2000x609-800x243.png",
+                "image": "@PROJECT_PATH@/assets/images/logo-engelsk-hvl-2000x609.png",
+                "caption": "Type caption here",
+                "active": true
+              }
+            ]
+          },
+          "_anchor": "gallery3-n",
+          "articleLayout": false,
+          "allItem": "All"
+        },
+        {
+          "_inherit": "gallery1",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "gallery2",
+          "_params": {
+            "showBullets": true,
+            "fullWidth": true,
+            "spacing": 0,
+            "paddingTop": "2",
+            "paddingBottom": "3",
+            "filterBgColor": false,
+            "bgColor": "fff",
+            "showText": false,
+            "filter": false,
+            "images": [
+              {
+                "tags": "Animated",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/research-council-of-norway-2000x367-800x146.png",
+                "image": "@PROJECT_PATH@/assets/images/research-council-of-norway-2000x367.png",
+                "caption": "Type caption here",
+                "active": true
+              },
+              {
+                "tags": "Animated",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/imageedit-2-2000x730-800x292.png",
+                "image": "@PROJECT_PATH@/assets/images/imageedit-2-2000x730.png",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Awesome",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/cmr-logo-2000x606-800x242.png",
+                "image": "@PROJECT_PATH@/assets/images/cmr-logo-2000x606.png",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Beautiful",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/helse-stavanger-logo-2000x376-800x150.png",
+                "image": "@PROJECT_PATH@/assets/images/helse-stavanger-logo-2000x376.png",
+                "caption": "Type caption here",
+                "active": false
+              }
+            ]
+          },
+          "_anchor": "gallery2-c",
+          "articleLayout": false,
+          "allItem": "All"
+        },
+        {
+          "_params": {
+            "paddingTop": "1",
+            "paddingBottom": "2",
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#ffffff",
+            "overlay": true,
+            "overlayColor": "#3C3C3C",
+            "overlayOpacity": 0.8,
+            "googleMap": {
+              "address": "Allegaten 55, Bergen, Norway",
+              "placeId": "ChIJyzImoKz-PEYRb-DZu3aA5kI",
+              "state": "ok",
+              "stateDetails": ""
+            }
+          },
+          "text1": "<strong>Visiting address</strong><br>Allégaten 55<br>5007 Bergen<br>Norway<br><br><br>\n<strong>Contacts</strong><br>\nEmail: yu-fen.chang(at)uib.no<br>",
+          "text2": "",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "contacts2",
+          "_anchor": "contacts2-22",
+          "_styles": {
+            "P": {
+              "color": "#000000",
+              "font-size": "17px"
+            },
+            "STRONG": {
+              "font-size": "19px"
+            }
+          }
+        },
+        {
+          "_inherit": "menu",
+          "_tags": [
+            "Theme"
+          ],
+          "_styles": {
+            ".hide-buttons .nav-btn": {
+              "display": "none !important"
+            },
+            ".navbar-caption": {
+              "color": "#ffffff",
+              "font-family": "'Lato', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Lato:400,300,700"
+            },
+            ".navbar-toggler": {
+              "color": "#ffffff"
+            },
+            ".close-icon::before, .close-icon::after": {
+              "background-color": "#ffffff"
+            },
+            ".link, .dropdown-item": {
+              "color": "#ffffff"
+            },
+            ".link": {
+              "font-size": "0.75rem"
+            },
+            ".dropdown-item, .nav-dropdown-sm .link": {
+              "font-size": "0.812rem"
+            },
+            ".link:hover, .dropdown-item:hover, .link:focus, .dropdown-item:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-menu": {
+              "background": "#0e0e0e"
+            },
+            ".nav-dropdown-sm .link:focus, .nav-dropdown-sm .link:hover, .nav-dropdown-sm .dropdown-item:focus, .nav-dropdown-sm .dropdown-item:hover": {
+              "background": "#202020!important"
+            },
+            ".navbar, .nav-dropdown-sm, .nav-dropdown-sm .link[aria-expanded=\"true\"], .nav-dropdown-sm .dropdown-menu": {
+              "background": "#282828"
+            },
+            ".bg-color.transparent .link": {
+              "color": "#ffffff",
+              "transition": "none"
+            },
+            ".bg-color.transparent.opened .link": {
+              "transition": "color .2s ease-in-out"
+            },
+            ".bg-color.transparent.opened .link:hover, .bg-color.transparent.opened .link:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-item[aria-expanded=\"true\"]": {
+              "color": "#2e2e2e!important"
+            },
+            "&.mbr-navbar--stuck .mbr-navbar__section": {
+              "background": "#2c2c2c"
+            },
+            ".mbr-navbar__section": {
+              "background": "#2c2c2c"
+            },
+            ".mbr-navbar__hamburger": {
+              "color": "#ffffff"
+            }
+          },
+          "_name": "ext.menu",
+          "_anchor": "ext_menu-z",
+          "_params": {
+            "logo": false,
+            "showBrand": true,
+            "hideButtons": false,
+            "sticky": true,
+            "collapsed": true,
+            "transparent": false,
+            "bgColor": "#282828",
+            "fontSize": 0.75,
+            "fontName": {},
+            "fontColor": "#ffffff",
+            "fontHoverColor": "@primaryColor"
+          },
+          "logo": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/norpept-logo-black.png",
+              "height": 128,
+              "alt": "Mobirise",
+              "link": "https://mobirise.com",
+              "title": "",
+              "linkInNewWindow": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-menu",
+              "link": "https://mobirise.com",
+              "size": 0
+            }
+          },
+          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"http://pept.co.nf/\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">NOR PEPT</a>",
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#content1-x\">Abut Us</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#content1-12\">Research Themes</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#contacts2-22\">Contact Us</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#content1-v\">Join Us</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white-outline btn-white\" href=\"publication.html\">Publications</a></li>"
+        },
+        {
+          "_styles": {
+            ".mbr-section-title, .mbr-section-subtitle": {
+              "text-align": "center"
+            },
+            "H3": {
+              "font-size": "25px"
+            }
+          },
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "header3",
+          "_anchor": "header3-14",
+          "_params": {
+            "showMeta": true,
+            "paddingTop": 1,
+            "paddingBottom": 1,
+            "bgColor": "#fff"
+          },
+          "title": "\"Nothing in life is to be feared, it is only to be understood.\"",
+          "meta": "Maria Skłodowska-Curie"
+        }
+      ]
+    }
+  }
+}
