@@ -57,7 +57,7 @@
             "overlayColor": "#444444",
             "overlayOpacity": 0.8
           },
-          "text": "© 2018 NOR PEPT"
+          "text": "© 2019 NOR PEPT"
         },
         {
           "_inherit": "menu",
@@ -331,7 +331,7 @@
             "paddingBottom": "0",
             "bgColor": "#ffffff"
           },
-          "text": "<p><span style=\"font-size: 1.07rem;\">NOR PEPT is a Norway based organisation that develops the state-of-the-art Positron Emission Particle Tracking (PEPT), aiming to facilitate understanding and solutions for systems and processes involving fluid and multiphase flow. &nbsp;</span></p><p><span style=\"font-size: 1.07rem;\"> </span></p><p><span style=\"font-size: 1.07rem;\">PEPT is the only existing technique capable of unveiling the flow trajectories in opacity, e.g. in opaque equipment and opaque mixtures. The PEPT technique has been developed at the University of Bergen in collaboration with Haukeland University Hospital with the support of Research Council of Norway. Sophisticated labelling and data processing techniques have been developed and continuously refined, which facilitates following the flow with high temporal and spatial resolutions, and enables studying high speed, complex flow in multiphase systems. NOR PEPT has enabled unprecedented investigation of complex flow phenomena which were formerly unfathomable. This would further trigger improvement in theory, simulation, process &amp; product design, and lives.</span></p><p><span style=\"font-size: 1.07rem;\"> </span></p><p><span style=\"font-size: 1.07rem;\">NOR PEPT is actively working on projects covering fluid dynamics study, flow equipment and process optimisation, as well as developing instrumentation, methods, &nbsp;and algorithms for PEPT in collaboration with industrial and academic partners. If you would like to join/propose collaborative projects or have questions/comments, please&nbsp;</span><a href=\"index.html#contacts2-22\" style=\"font-size: 1.07rem; background-color: rgb(255, 255, 255);\">contact us</a><span style=\"font-size: 1.07rem;\">. &nbsp;&nbsp;</span><br></p><p><br></p>"
+          "text": "<p><span style=\"font-size: 1.07rem;\">NOR PEPT is a Norway based organisation that develops the state-of-the-art Positron Emission Particle Tracking (PEPT), aiming to facilitate understanding and solutions for systems and processes involving fluid and multiphase flow. &nbsp;</span></p><p><span style=\"font-size: 1.07rem;\"> </span></p><p><span style=\"font-size: 1.07rem;\">PEPT is the only existing technique capable of unveiling the flow trajectories in opacity, e.g. in opaque equipment and opaque mixtures. The PEPT technique has been developed at the University of Bergen in collaboration with Haukeland University Hospital with the support of Research Council of Norway. Sophisticated labelling and data processing techniques have been developed and continuously refined, which facilitates following the flow with high temporal and spatial resolutions, and enables studying high speed, complex flow in multiphase systems. NOR PEPT has enabled unprecedented investigation of complex flow phenomena which were formerly unfathomable. This would further trigger improvement in theory, simulation, process &amp; product design, and lives.</span></p><p><span style=\"font-size: 1.07rem;\"> </span></p><p><span style=\"font-size: 1.07rem;\">NOR PEPT is actively working on projects of fluid dynamics studies, optimisation of flow equipment and process, as well as developing instrumentation, methods, and algorithms for PEPT in collaboration with industrial and academic partners. If you would like to join/propose collaborative projects or have questions/comments, please&nbsp;</span><a href=\"index.html#contacts2-22\" style=\"font-size: 1.07rem; background-color: rgb(255, 255, 255);\">contact us</a><span style=\"font-size: 1.07rem;\">. &nbsp;&nbsp;</span><br></p><p><br></p>"
         },
         {
           "_tags": [
@@ -361,7 +361,8 @@
           "_name": "testimonials1",
           "_styles": {
             ".card-block P": {
-              "text-align": "center"
+              "text-align": "center",
+              "font-size": "14px"
             },
             ".card-block": {
               "font-size": "16px"
@@ -423,6 +424,20 @@
               },
               "authorName": "Read more",
               "authorBio": "Developer"
+            },
+            {
+              "authorName": "John Smith",
+              "authorBio": "Developer",
+              "text": "<p>Applying PEPT to study flow in biological systems</p>",
+              "media": {
+                "image": {
+                  "src": "@THEME_PATH@/components/_images/face2.jpg",
+                  "class": "img-circle",
+                  "height": 160,
+                  "width": 160,
+                  "active": true
+                }
+              }
             }
           ],
           "_anchor": "testimonials1-11",
@@ -432,7 +447,7 @@
             "showImages": false,
             "showName": false,
             "showBio": false,
-            "count": "4",
+            "count": "5",
             "paddingTop": "0",
             "paddingBottom": "0",
             "bgImageRadio": false,
@@ -462,7 +477,7 @@
             "overlayColor": "#444444",
             "overlayOpacity": 0.8
           },
-          "text": "© 2018 NOR PEPT"
+          "text": "© 2019 NOR PEPT"
         },
         {
           "_tags": [
@@ -565,77 +580,28 @@
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/logo-engelsk-hvl-2000x609-800x243.png",
-                "image": "@PROJECT_PATH@/assets/images/logo-engelsk-hvl-2000x609.png",
+                "thumb": "@PROJECT_PATH@/assets/images/logo-engelsk-hvl-410x125.png",
+                "image": "@PROJECT_PATH@/assets/images/logo-engelsk-hvl.png",
                 "caption": "Type caption here",
-                "active": true
+                "active": true,
+                "alt": "",
+                "title": ""
+              },
+              {
+                "tags": "Creative",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/research-council-of-norway-800x147.png",
+                "image": "@PROJECT_PATH@/assets/images/research-council-of-norway.png",
+                "caption": "Type caption here",
+                "active": false,
+                "alt": "",
+                "title": ""
               }
             ]
           },
           "_anchor": "gallery3-n",
-          "articleLayout": false,
-          "allItem": "All"
-        },
-        {
-          "_inherit": "gallery1",
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "gallery2",
-          "_params": {
-            "showBullets": true,
-            "fullWidth": true,
-            "spacing": 0,
-            "paddingTop": "2",
-            "paddingBottom": "3",
-            "filterBgColor": false,
-            "bgColor": "fff",
-            "showText": false,
-            "filter": false,
-            "images": [
-              {
-                "tags": "Animated",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
-                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/research-council-of-norway-2000x367-800x146.png",
-                "image": "@PROJECT_PATH@/assets/images/research-council-of-norway-2000x367.png",
-                "caption": "Type caption here",
-                "active": true
-              },
-              {
-                "tags": "Animated",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
-                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/imageedit-2-2000x730-800x292.png",
-                "image": "@PROJECT_PATH@/assets/images/imageedit-2-2000x730.png",
-                "caption": "Type caption here",
-                "active": false
-              },
-              {
-                "tags": "Awesome",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
-                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/cmr-logo-2000x606-800x242.png",
-                "image": "@PROJECT_PATH@/assets/images/cmr-logo-2000x606.png",
-                "caption": "Type caption here",
-                "active": false
-              },
-              {
-                "tags": "Beautiful",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
-                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/helse-stavanger-logo-2000x376-800x150.png",
-                "image": "@PROJECT_PATH@/assets/images/helse-stavanger-logo-2000x376.png",
-                "caption": "Type caption here",
-                "active": false
-              }
-            ]
-          },
-          "_anchor": "gallery2-c",
           "articleLayout": false,
           "allItem": "All"
         },
