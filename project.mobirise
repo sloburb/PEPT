@@ -21,12 +21,13 @@
         "isRtl": false
       },
       "additionalSetColors": [
-        "#8c8c8c",
-        "#2e2e2e",
-        "#232323",
-        "#c7f4fa",
-        "#c7e3fa",
-        "#d4e9fa"
+        "#9c9b9b",
+        "#c9c9c9",
+        "#fcfcfc",
+        "#e4e4e4",
+        "#ecf0fd",
+        "#d8e2fd",
+        "#eaf5fd"
       ]
     },
     "versionFirst": "3.12.1",
@@ -608,7 +609,7 @@
           "_params": {
             "paddingTop": 1,
             "paddingBottom": "1",
-            "bgColor": "#fff"
+            "bgColor": "#ffffff"
           },
           "text": "<p><b>Developers &amp; Partners</b></p>"
         },
@@ -625,7 +626,7 @@
             "paddingTop": "0",
             "paddingBottom": "0",
             "filterBgColor": true,
-            "bgColor": "#c7e3fa",
+            "bgColor": "#ffffff",
             "showText": false,
             "filter": false,
             "images": [
@@ -688,7 +689,7 @@
             "paddingTop": "1",
             "paddingBottom": "0",
             "filterBgColor": false,
-            "bgColor": "#28324e",
+            "bgColor": "#ffffff",
             "showText": false,
             "filter": false,
             "images": [
@@ -697,8 +698,8 @@
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
-                "image": "@PROJECT_PATH@/assets/images/uit-logo-eng-hvit.png",
-                "thumb": "@PROJECT_PATH@/assets/images/uit-logo-eng-hvit-800x80.png",
+                "image": "@PROJECT_PATH@/assets/images/uit-logo-eng-2l-bla-rgb-2000x367.png",
+                "thumb": "@PROJECT_PATH@/assets/images/uit-logo-eng-2l-bla-rgb-2000x367-800x147.png",
                 "alt": "",
                 "title": "",
                 "caption": "Type caption here",
@@ -709,36 +710,36 @@
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
-                "image": "@PROJECT_PATH@/assets/images/unn-engelsk-neg.png",
-                "thumb": "@PROJECT_PATH@/assets/images/unn-engelsk-neg-792x55.png",
-                "alt": "",
-                "title": "",
-                "caption": "Type caption here",
-                "active": false
-              },
-              {
-                "tags": "Creative",
-                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
-                "image": "@PROJECT_PATH@/assets/images/enius-white-h-1515414240.png",
-                "thumb": "@PROJECT_PATH@/assets/images/enius-white-h-1515414240-250x64.png",
-                "alt": "",
-                "title": "",
-                "caption": "Type caption here",
-                "active": false
-              },
-              {
-                "tags": "Animated",
-                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
-                "image": "@PROJECT_PATH@/assets/images/navbar-logo-cost.png",
-                "thumb": "@PROJECT_PATH@/assets/images/navbar-logo-cost-141x50.png",
+                "image": "@PROJECT_PATH@/assets/images/unn-engelsk-cmyk-1-792x55.png",
+                "thumb": "@PROJECT_PATH@/assets/images/unn-engelsk-cmyk-1-792x55-792x55.png",
                 "alt": "",
                 "title": "",
                 "caption": "Type caption here",
                 "active": true
+              },
+              {
+                "tags": "Responsive",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "image": "@PROJECT_PATH@/assets/images/enius-white-h-1515414241-250x64.png",
+                "thumb": "@PROJECT_PATH@/assets/images/enius-white-h-1515414241-250x64-250x64.png",
+                "alt": "",
+                "title": "",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Responsive",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "image": "@PROJECT_PATH@/assets/images/cost-logo-cmyk-0-0-dark-926x331.png",
+                "thumb": "@PROJECT_PATH@/assets/images/cost-logo-cmyk-0-0-dark-926x331-800x286.png",
+                "alt": "",
+                "title": "",
+                "caption": "Type caption here",
+                "active": false
               }
             ]
           },
